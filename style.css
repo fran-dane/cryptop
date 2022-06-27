@@ -174,14 +174,10 @@ header a:hover{
 
 }
 
-#caracteristicas .container{
-    text-align: center;
-    padding: 250px 12px;
-}
 
-#caracteristicas li{
-    margin: 16px 0px;
-    font-weight: bold;
+.lista-caracteristicas {
+    text-align: center;
+    margin-top: 25px;
 }
 
 #final{

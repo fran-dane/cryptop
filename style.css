@@ -13,7 +13,8 @@ html{
 }
 
 body {
-    background: #fff;
+    background: #121212;
+    
 }
 
 h1{ font-size: 3.5em;}
@@ -22,6 +23,10 @@ h3{ font-size: 2em;}
 p{ font-size: 1.25em;}
 ul{ list-style: none;}
 li{ font-size: 1.25em;}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
 
 button{
     font-size: 1.25em;
@@ -32,13 +37,14 @@ button{
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
     color: white;
     background-color: blueviolet;
-    transition: all .8s;
     margin-top: 50px;
+    transform: 2s;
+    transition: all .6s;
 }
 
 button:hover{
-    background-color: #9754abf8;
-    transition: all .8s;
+    transition: all .6s;
+    transform: scale(1.5);
 }
 
 .container{
@@ -49,7 +55,7 @@ button:hover{
 .color-acento{ color:blueviolet; }
 
 header{
-    background-color: rgb(245,245,245);
+    background-color: #121212;
     
 }
 
@@ -78,7 +84,7 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: #fff;
 }
 
 header a:hover{
@@ -114,6 +120,7 @@ header a:hover{
 #somos-cryptop .container{
     text-align: center;
     padding: 200px 12px;
+    color: #fff;
 }
 
 #nuestros-programas{
@@ -344,6 +351,7 @@ header a:hover{
     vertical-align: top;
     transition: all 0.6s;
     transition-property: opacity;
+    opacity: 0.4;
 }
 
 .image-cards img:hover {
@@ -367,7 +375,6 @@ header a:hover{
     font-weight: 300;
     margin-top: 70px;
     transition: 0.4s;
-    transition-property: transform;
 }
 
 .image-cards .details-cards h2 span {
@@ -387,9 +394,6 @@ header a:hover{
     text-align: center;
     opacity: 0;
     transition: 0.6s;
-    transition-property: opacity, transform;
-    background-color: rgba(1, 1, 66, 0.448);
-
 }
 
 .image-cards:hover .details-cards p {
